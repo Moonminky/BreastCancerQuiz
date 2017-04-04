@@ -15,7 +15,7 @@
 
         <TextView
             android:id="@+id/Q1"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
@@ -34,9 +34,9 @@
                 android:layout_height="match_parent"
                 android:layout_marginBottom="16dp"
                 android:layout_weight="1"
+                android:onClick="onRadioButtonClicked"
                 android:paddingLeft="5dp"
-                android:text="@string/Right"
-                android:onClick="onRadioButtonClicked"/>
+                android:text="@string/Right" />
 
             <RadioButton
                 android:id="@+id/Q1A2"
@@ -44,9 +44,9 @@
                 android:layout_height="match_parent"
                 android:layout_marginBottom="16dp"
                 android:layout_weight="1"
+                android:onClick="onRadioButtonClicked"
                 android:paddingLeft="5dp"
-                android:text="@string/Wrong"
-                android:onClick="onRadioButtonClicked"/>
+                android:text="@string/Wrong" />
         </RadioGroup>
 
         <TextView
@@ -69,9 +69,9 @@
                 android:layout_height="match_parent"
                 android:layout_marginBottom="16dp"
                 android:layout_weight="1"
+                android:onClick="onRadioButtonClicked"
                 android:paddingLeft="5dp"
-                android:text="@string/Right"
-                android:onClick="onRadioButtonClicked"/>
+                android:text="@string/Right" />
 
             <RadioButton
                 android:id="@+id/Q2A2"
@@ -79,9 +79,9 @@
                 android:layout_height="match_parent"
                 android:layout_marginBottom="16dp"
                 android:layout_weight="1"
+                android:onClick="onRadioButtonClicked"
                 android:paddingLeft="5dp"
-                android:text="@string/Wrong"
-                android:onClick="onRadioButtonClicked"/>
+                android:text="@string/Wrong" />
         </RadioGroup>
 
 
@@ -106,10 +106,10 @@
                 android:layout_marginBottom="16dp"
                 android:layout_weight="1"
                 android:checked="false"
+                android:onClick="onRadioButtonClicked"
                 android:paddingLeft="5dp"
                 android:text="@string/leanWomen"
-                android:textSize="16sp"
-                android:onClick="onRadioButtonClicked"/>
+                android:textSize="16sp" />
 
             <RadioButton
                 android:id="@+id/Q3A2"
@@ -118,10 +118,10 @@
                 android:layout_marginBottom="16dp"
                 android:layout_weight="1"
                 android:checked="false"
+                android:onClick="onRadioButtonClicked"
                 android:paddingLeft="5dp"
                 android:text="@string/overweightWomen"
-                android:textSize="16sp"
-                android:onClick="onRadioButtonClicked"/>
+                android:textSize="16sp" />
 
             <RadioButton
                 android:id="@+id/Q3A3"
@@ -130,10 +130,10 @@
                 android:layout_marginBottom="16dp"
                 android:layout_weight="1"
                 android:checked="false"
+                android:onClick="onRadioButtonClicked"
                 android:paddingLeft="5dp"
                 android:text="@string/allWomen"
-                android:textSize="16sp"
-                android:onClick="onRadioButtonClicked"/>
+                android:textSize="16sp" />
 
         </RadioGroup>
 
@@ -159,10 +159,10 @@
                 android:layout_marginBottom="16dp"
                 android:layout_weight="1"
                 android:checked="false"
+                android:onClick="onRadioButtonClicked"
                 android:paddingLeft="5dp"
                 android:text="@string/doctors"
-                android:textSize="16sp"
-                android:onClick="onRadioButtonClicked"/>
+                android:textSize="16sp" />
 
             <RadioButton
                 android:id="@+id/Q4A2"
@@ -171,10 +171,10 @@
                 android:layout_marginBottom="16dp"
                 android:layout_weight="1"
                 android:checked="false"
+                android:onClick="onRadioButtonClicked"
                 android:paddingLeft="5dp"
                 android:text="@string/patients"
-                android:textSize="16sp"
-                android:onClick="onRadioButtonClicked"/>
+                android:textSize="16sp" />
 
             <RadioButton
                 android:id="@+id/Q4A3"
@@ -183,10 +183,10 @@
                 android:layout_marginBottom="16dp"
                 android:layout_weight="1"
                 android:checked="false"
+                android:onClick="onRadioButtonClicked"
                 android:paddingLeft="5dp"
                 android:text="@string/partners"
-                android:textSize="16sp"
-                android:onClick="onRadioButtonClicked"/>
+                android:textSize="16sp" />
 
         </RadioGroup>
 
@@ -211,10 +211,10 @@
                 android:layout_marginBottom="16dp"
                 android:layout_weight="1"
                 android:checked="false"
+                android:onClick="onCheckboxClicked"
                 android:paddingLeft="5dp"
                 android:text="@string/gender"
-                android:textSize="16sp"
-                android:onClick="onCheckboxClicked"/>
+                android:textSize="16sp" />
 
             <CheckBox
                 android:id="@+id/Q5A2"
@@ -223,10 +223,10 @@
                 android:layout_marginBottom="16dp"
                 android:layout_weight="1"
                 android:checked="false"
+                android:onClick="onCheckboxClicked"
                 android:paddingLeft="5dp"
                 android:text="@string/age"
-                android:textSize="16sp"
-                android:onClick="onCheckboxClicked"/>
+                android:textSize="16sp" />
 
             <CheckBox
                 android:id="@+id/Q5A3"
@@ -235,10 +235,10 @@
                 android:layout_marginBottom="16dp"
                 android:layout_weight="1"
                 android:checked="false"
+                android:onClick="onCheckboxClicked"
                 android:paddingLeft="5dp"
                 android:text="@string/weight"
-                android:textSize="16sp"
-                android:onClick="onCheckboxClicked"/>
+                android:textSize="16sp" />
 
         </LinearLayout>
 
@@ -262,9 +262,9 @@
                 android:layout_height="match_parent"
                 android:layout_marginBottom="16dp"
                 android:layout_weight="1"
+                android:onClick="onRadioButtonClicked"
                 android:paddingLeft="5dp"
-                android:text="@string/Right"
-                android:onClick="onRadioButtonClicked"/>
+                android:text="@string/Right" />
 
             <RadioButton
                 android:id="@+id/Q6A2"
@@ -272,9 +272,9 @@
                 android:layout_height="match_parent"
                 android:layout_marginBottom="16dp"
                 android:layout_weight="1"
+                android:onClick="onRadioButtonClicked"
                 android:paddingLeft="5dp"
-                android:text="@string/Wrong"
-                android:onClick="onRadioButtonClicked"/>
+                android:text="@string/Wrong" />
         </RadioGroup>
 
         <TextView
@@ -297,8 +297,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorAccent"
-            android:text="@string/button"
-            android:onClick="submitAnswers"/>
+            android:onClick="submitAnswers"
+            android:text="@string/button" />
 
     </LinearLayout>
 </ScrollView>
