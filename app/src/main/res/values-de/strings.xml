@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Brustkrebs Quiz</string>
+    <string name="Q1">Männer können auch Brustkrebs bekommen. Wahr oder falsch?</string>
+    <string name="Q2">Etwa 85% der Brustkrebsfälle sind Frauen ohne Brustkrebsfälle in der Familie. Wahr oder falsch?</string>
+    <string name="Q3">Sport reduziert das Brustkrebsrisiko für</string>
+    <string name="Q4">8 von 10 Knoten in der Brust werden von wem entdeckt?</string>
+    <string name="Q5">Die 2 Hauptrisikofaktoren für Brustkrebs sind</string>
+    <string name="Q6">Brustimplantate erhöhen das Brustkrebsrisiko. Wahr oder falsch?</string>
+    <string name="Q7">Welches weibliche Hormon kann im Übermaß das Brustkrebsrisiko erhöhen?</string>
+    <string name="Right">Wahr</string>
+    <string name="Wrong">Falsch</string>
+    <string name="age">Alter</string>
+    <string name="allWomen">alle, unabhängig vom Körpergewicht</string>
+    <string name="button">Ergebnisse checken</string>
+    <string name="doctors">Ärzten</string>
+    <string name="gender">weibliches Geschlecht</string>
+    <string name="hint">Antwort</string>
+    <string name="leanWomen">dünne Frauen</string>
+    <string name="overweightWomen">übergewichtige Frauen</string>
+    <string name="partners">Partner</string>
+    <string name="patients">Patienten selbst</string>
+    <string name="resultLess4">Oh, nur <xliff:g id="score">%d</xliff:g>  von 7! Probier\'s nochmal!</string>
+    <string name="resultLess5"><xliff:g id="score">%d</xliff:g> von 7! Nicht schlecht!</string>
+    <string name="resultMore5"><xliff:g id="score">%d</xliff:g> richtige Antworten! Super!</string>
+    <string name="resultPerfect">Du hast alles richtig beantwortet! Mega!</string>
+    <string name="weight">Übergewicht</string>
+</resources>

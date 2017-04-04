@@ -1,0 +1,35 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Breast Cancer Quiz</string>
+
+    <!-- Question strings -->
+    <string name="Q1">Men can get breast cancer, too. Right or wrong?</string>
+    <string name="Q2">About 85 percent of breast cancer occurs in women who have no family history of breast cancer. Right or wrong?</string>
+    <string name="Q3">Exercise reduces breast cancer risk for</string>
+    <string name="Q4">8 out of 10 breast lumps are discovered by</string>
+    <string name="Q5">The 2 leading risk factors for breast cancer are</string>
+    <string name="Q6">Breast implants increase your risk for breast cancer. Right or wrong?</string>
+    <string name="Q7">Extended exposure to which female hormone can increase the risk of breast cancer?</string>
+
+    <!-- Answer strings -->
+    <string name="Right">Right</string>
+    <string name="Wrong">Wrong</string>
+    <string name="leanWomen">lean women</string>
+    <string name="overweightWomen">overweight women</string>
+    <string name="allWomen">women of all body types</string>
+    <string name="doctors">doctors</string>
+    <string name="patients">patients themselves</string>
+    <string name="partners">partners</string>
+    <string name="gender">being a woman </string>
+    <string name="age">getting older</string>
+    <string name="weight">being overweight</string>
+
+    <!-- Element strings -->
+    <string name="hint">Type here</string>
+    <string name="button">Check results</string>
+
+    <!-- Result Toast messages -->
+    <string name="resultLess4">Oh, only <xliff:g id="score">%d</xliff:g>  from 7! Try again!</string>
+    <string name="resultLess5">You got <xliff:g id="score">%d</xliff:g> from 7! Not bad!</string>
+    <string name="resultMore5">You got <xliff:g id="score">%d</xliff:g> questions right! You rock!</string>
+    <string name="resultPerfect">You got all the questions right! Awesome!</string>
+</resources>
